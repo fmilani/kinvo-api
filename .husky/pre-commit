@@ -1,4 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm test
+npm test && \
+  npm version patch --no-git-tag-version && \
+  git add package.json package-lock.json
+
