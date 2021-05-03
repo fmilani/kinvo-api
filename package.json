@@ -1,6 +1,6 @@
 {
   "name": "kinvo-api",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Api não oficial para a plataforma kinvo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
